@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #1e293b;
+}
+
+.custom-nav {
+    background: #020617;
+}
+
+.logo {
+    color: white !important;
+}
+
+.hero {
+    height: 100vh;
+    background: url("fondo.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box {
+    background: lab(5.85% 0.82 -7.49);
+    padding: 40px 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.hero-box h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.hero-box p {
+    color: #e2e8f0;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.perfil {
+    width: 150px;
+}
+
+.skill-card {
+    background: #f1f5f9;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    width: 60px;
+    margin-bottom: 10px;
+    filter: grayscale(100%);
+}
+
+/* PROYECTOS */
+.proyecto {
+    background: #f1f5f9;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* BOTONES */
+.btn-info {
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-info:hover {
+    background: #1e293b;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #020617;
+    color: white;
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+/* EMAIL */
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* REDES */
+.redes a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.redes a i {
+    font-size: 20px;
+}
+
+.redes a:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* COPYRIGHT */
+.copy {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+/* SCROLL */
+html {
+    scroll-behavior: smooth;
+}
